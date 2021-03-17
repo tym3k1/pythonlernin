@@ -1,10 +1,3 @@
-########################
-#####ZADANIA SE POWTORZ
-#####LAB 2 I 3 WSZYSTKIE ZADANIA
-####ZAPIERDOL
-#####BO TE RZECZY TO CHYBA PRZYDATNE BEDA
-#####ZROB WSZYSTKO MORDO, BO TO SROGO
-#LAB3-3ZD
 
 
 """ for x in range (0,50,5):
@@ -94,7 +87,7 @@ d = [[random.randint(-10, 10) for x in range(n)] for x in range(n)]
  """
 
 
-items = {"jajka": "szt",
+fanty = {"jajka": "szt",
 "pomarancze": "szt",
 "arbuz": "kg",
 "ziemniaki": "kg",
@@ -103,6 +96,8 @@ items = {"jajka": "szt",
 "chleb": "szt",
 "makaron": "kg"}
 
+odw = {value: key for key, value in fanty.items()}
+#szt = [fanty['szt'] for x in fanty]
 
 
-print(nowaLista)
+print(odw)
