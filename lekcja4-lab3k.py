@@ -67,5 +67,11 @@ print(ciung_aryt())
 print(zakupy(slodycze=7, rozrywka=7))
  """
 
+import dni_tygodnia
+""" 
+print(dni_tygodnia.dzientyg(1))
 
 
+ """
+
+print(dni_tygodnia.kwiecien(12))
