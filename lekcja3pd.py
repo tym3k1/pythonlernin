@@ -74,19 +74,21 @@ print(B)
 print(C) """
 
 
-""" import random 
-c = []
+import random 
+""" 
 e = []
 n=4
 d = [[random.randint(-10, 10) for x in range(n)] for x in range(n)]
 
-#c = [[element for element in row] for row in d]
+c = [d[n-i-1][n-i-1] for i in range(len(d))]
+print(c)
+print(d)
 ''' for x in range(len(d)):
     c.append(d[x][x])
  '''
+
  """
-
-
+""" 
 fanty = {"jajka": "szt",
 "pomarancze": "szt",
 "arbuz": "kg",
@@ -96,8 +98,11 @@ fanty = {"jajka": "szt",
 "chleb": "szt",
 "makaron": "kg"}
 
-odw = {value: key for key, value in fanty.items()}
-#szt = [fanty['szt'] for x in fanty]
+odw = {
+    key: value
+    for key, value in fanty.items()
+    if value.startswith("szt")
+    }
 
 
-print(odw)
+print(odw) """
