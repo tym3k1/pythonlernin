@@ -1,4 +1,4 @@
-""" class Wspak:
+''' """ class Wspak:
     def __init__(self, data):
         self.data = data
         self.index = len(data)
@@ -40,4 +40,4 @@ kotlet = Codrugie("kotlet")
 
 print(kotlet.__next__())
 print(kotlet.__next__())
-print(kotlet.__next__())
+print(kotlet.__next__()) '''
