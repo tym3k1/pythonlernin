@@ -42,9 +42,9 @@ def zad4():
     colors = {'Iris-setosa': 'red', 'Iris-versicolor': 'blue', 'Iris-virginica': 'green'}
     scatter_col = [colors[i] for i in df['class']]
     plt.scatter(df['SL'], df['SW'],c=scatter_col)
-    plt.title("sepal width vs sepal length")
+    plt.title("sepal width & sepal length")
     plt.show()
- 
+
 
 
 def zad5():
@@ -56,7 +56,7 @@ def zad5():
     plt.title('Ilosc zamowien xD')
     plt.show()
 
-zad5()
+#zad5()
 #zad4()
 #zad3()
 #zad2()
