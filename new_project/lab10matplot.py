@@ -89,7 +89,7 @@ def rzucaj(n):
         for x in range(n):
             rzut = random.randint(1,6)
             list1.append(rzut)
-        vect = np.array(list1)
+        vect = pd.Series(list1)
         return vect
 
 
@@ -127,4 +127,4 @@ def zad10():
     plt.show()
 
 
-zad10()
+zad8()
